@@ -175,7 +175,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // Chumper\Zipper\ZipperServiceProvider::class,
-        Madnest\Madzipper\MadzipperServiceProvider::class
     ],
 
     /*
