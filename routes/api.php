@@ -13,8 +13,8 @@ use App\Http\Controllers\UploadController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::post('/extract_zip', [UploadController::class, 'extract_zip']);
-Route::post('/delete_file', [UploadController::class, 'delete_file']);
+Route::post('/upload-landing-page', [UploadController::class, 'upload']);
+Route::post('/delete-landing-page', [UploadController::class, 'delete']);
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
